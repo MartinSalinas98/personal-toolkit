@@ -9,4 +9,4 @@ To use it, import the `display_info` function and call it passing to it and obje
 
 - docx_diff_reformat.py<br>
 Requires python-docx (`pip3 install python-docx`).<br>
-A Python script that receives an input Microsoft Word file obtained from a Microsoft Word comparison between files, and an output filename (both need to have `.docx` extension), and creates a Microsoft Word file with the given output name, where its contents are exactly the same as the input file, but it will have highlighted in yellow all the elements tracked as included. It can optionally show the elements tracked as deleted, given the appropiate flag.
+A Python script that receives an input Microsoft Word file obtained from a Microsoft Word comparison between files, and an output filename (both need to have `.docx` extension), and creates a Microsoft Word file with the given output name, where its contents are exactly the same as the input file, but it will have highlighted in yellow all the elements tracked as included. It can optionally show the elements tracked as deleted in red color and crossed out, given the appropiate flag.
